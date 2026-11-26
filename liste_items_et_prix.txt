@@ -1,0 +1,384 @@
+================================================================================
+BASE DE DONNÉES ESTIMATIVE DES OBJETS VENDABLES - WAKFU
+Format : Nom de l'objet ; Catégorie ; Niveau ; Prix moyen estimé (Kamas)
+Note : Les prix sont des estimations indicatives moyennes en Kamas.
+================================================================================
+
+--- 1. RELIQUES, ÉPIQUES & OBJETS EMBLÉMATIQUES ---
+Gélano ; Anneau ; 75 ; 220000
+Anneau de Satisfaction ; Anneau ; 35 ; 15000
+Amulette du Renouveau ; Amulette ; 65 ; 45000
+Puissante Ceinture Fulgurante ; Ceinture ; 80 ; 180000
+Coiffe du Wa Wabbit ; Coiffe ; 95 ; 250000
+Cape du Wabbit ; Cape ; 95 ; 210000
+Solomonk ; Coiffe ; 120 ; 1200000
+Bottes Harry ; Bottes ; 125 ; 950000
+Ortiz ; Cape ; 130 ; 1400000
+Ceinture Rasboulaire ; Ceinture ; 135 ; 1100000
+Dora Bora ; Coiffe ; 140 ; 1600000
+Aiguille d'Outre-Temps ; Arme ; 145 ; 1850000
+Bouclier d'Asse ; Seconde Main ; 150 ; 1500000
+Marteau d'Ougah ; Arme ; 155 ; 2100000
+Voile d'Encrier ; Cape ; 160 ; 2800000
+Cape No ; Cape ; 165 ; 2400000
+Coiffe de l'Ombre ; Coiffe ; 170 ; 3200000
+Bottes de Klime ; Bottes ; 170 ; 2900000
+Amulette de Sylargh ; Amulette ; 170 ; 3100000
+Ceinture de Nileza ; Ceinture ; 170 ; 3000000
+Plastron du Comte Harebourg ; Plastron ; 175 ; 4500000
+Épaulettes de Missiz Frizz ; Épaulettes ; 175 ; 4200000
+Sceau des Compagnons ; Anneau ; 180 ; 5000000
+Souvenir d'Enutrosor ; Amulette ; 185 ; 5500000
+Coeur de Xélorium ; Plastron ; 190 ; 6200000
+Ailes de Serre d'Acier ; Cape ; 195 ; 7500000
+Casque de Nogord ; Coiffe ; 200 ; 9000000
+Bottes de Moon ; Bottes ; 200 ; 6800000
+Ceinture Kanniboul ; Ceinture ; 200 ; 6500000
+Couronne d'Ogrest ; Coiffe ; 215 ; 12000000
+Écharpe de Pandala ; Cape ; 215 ; 8500000
+Anneau d'Ereboria ; Anneau ; 230 ; 14000000
+Dofus Émeraude ; Relique / Dofus ; 100 ; 3500000
+Dofus Pourpre ; Relique / Dofus ; 130 ; 4800000
+Dofus Turquoise ; Relique / Dofus ; 160 ; 7500000
+Dofus Ocre ; Relique / Dofus ; 180 ; 11000000
+Dofus Prismatique ; Relique / Dofus ; 200 ; 15000000
+
+--- 2. ÉQUIPEMENTS PAR TRANCHES DE NIVEAU ---
+Coiffe du Bouftou ; Coiffe ; 15 ; 1500
+Cape du Bouftou ; Cape ; 15 ; 1200
+Plastron du Bouftou ; Plastron ; 15 ; 1800
+Bottes du Bouftou ; Bottes ; 15 ; 1000
+Ceinture du Bouftou ; Ceinture ; 15 ; 1000
+Amulette du Bouftou ; Amulette ; 15 ; 1200
+Anneau du Bouftou ; Anneau ; 15 ; 900
+Marteau du Bouftou ; Arme ; 15 ; 2000
+Coiffe du Tofu ; Coiffe ; 20 ; 2000
+Cape du Tofu ; Cape ; 20 ; 1800
+Bottes du Tofu ; Bottes ; 20 ; 1500
+Coiffe du Piou Rouge ; Coiffe ; 10 ; 800
+Coiffe du Piou Bleu ; Coiffe ; 10 ; 800
+Coiffe du Piou Vert ; Coiffe ; 10 ; 800
+Coiffe du Piou Violet ; Coiffe ; 10 ; 800
+Coiffe du Prespic ; Coiffe ; 30 ; 6500
+Cape du Prespic ; Cape ; 30 ; 7000
+Ceinture du Prespic ; Ceinture ; 30 ; 5500
+Anneau du Prespic ; Anneau ; 30 ; 5000
+Coiffe de l'Abraknyde ; Coiffe ; 45 ; 12000
+Cape de l'Abraknyde ; Cape ; 45 ; 11000
+Plastron de l'Abraknyde ; Plastron ; 45 ; 14000
+Bottes de l'Abraknyde ; Bottes ; 45 ; 10000
+Coiffe du Scarafeuille ; Coiffe ; 50 ; 15000
+Cape du Scarafeuille ; Cape ; 50 ; 14000
+Anneau du Scarafeuille ; Anneau ; 50 ; 12000
+Coiffe du Chafer ; Coiffe ; 60 ; 22000
+Plastron du Chafer ; Plastron ; 60 ; 25000
+Épée du Chafer ; Arme ; 60 ; 28000
+Coiffe du Craqueleur ; Coiffe ; 70 ; 35000
+Plastron du Craqueleur ; Plastron ; 70 ; 40000
+Bottes du Craqueleur ; Bottes ; 70 ; 32000
+Coiffe du Bwork ; Coiffe ; 85 ; 55000
+Plastron du Bwork ; Plastron ; 85 ; 60000
+Épaulettes du Bwork ; Épaulettes ; 85 ; 50000
+Coiffe du Mulou ; Coiffe ; 100 ; 95000
+Cape du Mulou ; Cape ; 100 ; 90000
+Plastron du Mulou ; Plastron ; 100 ; 110000
+Bottes du Mulou ; Bottes ; 100 ; 85000
+Ceinture du Mulou ; Ceinture ; 100 ; 85000
+Amulette du Mulou ; Amulette ; 100 ; 95000
+Anneau du Mulou ; Anneau ; 100 ; 80000
+Coiffe du Corbeau Noir ; Coiffe ; 115 ; 160000
+Cape du Corbeau Noir ; Cape ; 115 ; 175000
+Plastron du Corbeau Noir ; Plastron ; 115 ; 190000
+Épaulettes du Corbeau Noir ; Épaulettes ; 115 ; 150000
+Bottes du Corbeau Noir ; Bottes ; 115 ; 145000
+Coiffe du Vampire ; Coiffe ; 125 ; 210000
+Cape du Vampire ; Cape ; 125 ; 200000
+Amulette du Vampire ; Amulette ; 125 ; 195000
+Coiffe du Dragon Cochon ; Coiffe ; 135 ; 280000
+Plastron du Dragon Cochon ; Plastron ; 135 ; 320000
+Ceinture du Dragon Cochon ; Ceinture ; 135 ; 260000
+Bottes du Dragon Cochon ; Bottes ; 135 ; 250000
+Coiffe du Rat Noir ; Coiffe ; 145 ; 350000
+Cape du Rat Noir ; Cape ; 145 ; 340000
+Dagues du Rat Noir ; Arme ; 145 ; 390000
+Coiffe du Rat Blanc ; Coiffe ; 145 ; 360000
+Cape du Rat Blanc ; Cape ; 145 ; 350000
+Bâton du Rat Blanc ; Arme ; 145 ; 400000
+Coiffe du Chêne Mou ; Coiffe ; 155 ; 480000
+Plastron du Chêne Mou ; Plastron ; 155 ; 520000
+Épaulettes du Chêne Mou ; Épaulettes ; 155 ; 460000
+Ceinture du Chêne Mou ; Ceinture ; 155 ; 450000
+Coiffe de Srambad ; Coiffe ; 170 ; 650000
+Cape de Srambad ; Cape ; 170 ; 620000
+Plastron d'Enutrosor ; Plastron ; 175 ; 750000
+Bottes d'Enutrosor ; Bottes ; 175 ; 680000
+Coiffe de Xélorium ; Coiffe ; 185 ; 900000
+Amulette de Xélorium ; Amulette ; 185 ; 850000
+Plastron de Zinit ; Plastron ; 200 ; 1300000
+Épaulettes de Zinit ; Épaulettes ; 200 ; 1150000
+Bottes de Zinit ; Bottes ; 200 ; 1100000
+Coiffe Tropikoko ; Coiffe ; 200 ; 1200000
+Plastron Pandala ; Plastron ; 215 ; 1800000
+Ceinture Pandala ; Ceinture ; 215 ; 1600000
+Anneau Pandala ; Anneau ; 215 ; 1500000
+Coiffe d'Ereboria ; Coiffe ; 230 ; 2400000
+Plastron d'Ereboria ; Plastron ; 230 ; 2600000
+Bottes d'Ereboria ; Bottes ; 230 ; 2200000
+
+--- 3. SUBLIMATIONS (PARCHEMINS D'ENCHANTEMENT) ---
+Sublimation : Carnage ; Sublimation Standard ; 1 ; 350000
+Sublimation : Fureur ; Sublimation Standard ; 1 ; 280000
+Sublimation : Ravage ; Sublimation Standard ; 1 ; 420000
+Sublimation : Retour PA ; Sublimation Standard ; 1 ; 550000
+Sublimation : Retour PM ; Sublimation Standard ; 1 ; 480000
+Sublimation : Vélocité ; Sublimation Standard ; 1 ; 310000
+Sublimation : Critique Berserk ; Sublimation Standard ; 1 ; 220000
+Sublimation : Critique Dos ; Sublimation Standard ; 1 ; 260000
+Sublimation : Critique Mêlée ; Sublimation Standard ; 1 ; 290000
+Sublimation : Critique Distance ; Sublimation Standard ; 1 ; 300000
+Sublimation : Sauvegarde ; Sublimation Standard ; 1 ; 450000
+Sublimation : Focalisation ; Sublimation Standard ; 1 ; 380000
+Sublimation : Évasion ; Sublimation Standard ; 1 ; 150000
+Sublimation : Tacle ; Sublimation Standard ; 1 ; 160000
+Sublimation : Influence ; Sublimation Standard ; 1 ; 340000
+Sublimation : Ambition ; Sublimation Standard ; 1 ; 290000
+Sublimation : Brutalité ; Sublimation Standard ; 1 ; 320000
+Sublimation : Précision ; Sublimation Standard ; 1 ; 270000
+Sublimation : Spécialisation ; Sublimation Standard ; 1 ; 250000
+Sublimation : Longueur ; Sublimation Standard ; 1 ; 390000
+Sublimation : Volonté ; Sublimation Standard ; 1 ; 410000
+Sublimation : Cicatrisation ; Sublimation Standard ; 1 ; 240000
+Sublimation : Carapace ; Sublimation Standard ; 1 ; 210000
+Sublimation : Barrière ; Sublimation Standard ; 1 ; 190000
+Sublimation : Esquive ; Sublimation Standard ; 1 ; 140000
+Sublimation : Initiative ; Sublimation Standard ; 1 ; 180000
+Sublimation : Ruine ; Sublimation Épique/Relique ; 1 ; 4500000
+Sublimation : Dévastation ; Sublimation Épique/Relique ; 1 ; 5200000
+Sublimation : Secret de la vie ; Sublimation Épique/Relique ; 1 ; 3800000
+Sublimation : Pacte Wakfu ; Sublimation Épique/Relique ; 1 ; 4100000
+Sublimation : Abnégation ; Sublimation Épique/Relique ; 1 ; 3200000
+Sublimation : Force de la nature ; Sublimation Épique/Relique ; 1 ; 3600000
+Sublimation : Détermination ; Sublimation Épique/Relique ; 1 ; 2900000
+Sublimation : Inflexibilité ; Sublimation Épique/Relique ; 1 ; 3400000
+
+--- 4. ENCHANTEMENT, POUDRES & ÉCLATS ---
+Poudre d'enchantement ; Enchantement ; 1 ; 15
+Éclat d'enchantement ; Enchantement ; 1 ; 35
+Parchemin de sublimation vierge ; Enchantement ; 1 ; 12000
+Marteau de forgemagie ; Enchantement ; 1 ; 25000
+Transmutation 50 ; Enchantement ; 50 ; 5000
+Transmutation 80 ; Enchantement ; 80 ; 12000
+Transmutation 110 ; Enchantement ; 110 ; 25000
+Transmutation 140 ; Enchantement ; 140 ; 45000
+Transmutation 170 ; Enchantement ; 170 ; 80000
+Transmutation 200 ; Enchantement ; 200 ; 150000
+Transmutation 230 ; Enchantement ; 230 ; 280000
+
+--- 5. RESSOURCES DE MÉTIERS : PAYSAN & HERBORISTE ---
+Blé ; Paysan ; 1 ; 12
+Orge ; Paysan ; 10 ; 18
+Avoine ; Paysan ; 20 ; 25
+Seigle ; Paysan ; 30 ; 35
+Houblon ; Paysan ; 40 ; 45
+Lin ; Paysan ; 50 ; 60
+Chanvre ; Paysan ; 60 ; 75
+Malt ; Paysan ; 70 ; 90
+Riz ; Paysan ; 80 ; 110
+Maïs ; Paysan ; 90 ; 130
+Citrouille ; Paysan ; 100 ; 160
+Courge ; Paysan ; 110 ; 190
+Farine de Blé ; Paysan (Transformé) ; 1 ; 45
+Farine d'Orge ; Paysan (Transformé) ; 10 ; 65
+Farine d'Avoine ; Paysan (Transformé) ; 20 ; 90
+Farine de Seigle ; Paysan (Transformé) ; 30 ; 120
+Farine de Lin ; Paysan (Transformé) ; 50 ; 200
+Farine de Riz ; Paysan (Transformé) ; 80 ; 350
+Chardon ; Herboriste ; 1 ; 15
+Trèfle ; Herboriste ; 10 ; 22
+Menthe ; Herboriste ; 20 ; 30
+Orchidée ; Herboriste ; 30 ; 42
+Edelweiss ; Herboriste ; 40 ; 55
+Belladone ; Herboriste ; 50 ; 70
+Mandragore ; Herboriste ; 60 ; 85
+Fleur de Kaliptus ; Herboriste ; 70 ; 105
+Perce-Neige ; Herboriste ; 80 ; 125
+Lotus ; Herboriste ; 90 ; 150
+Ginseng ; Herboriste ; 100 ; 180
+Nénuphar ; Herboriste ; 110 ; 210
+Rose des sables ; Herboriste ; 120 ; 250
+Huile de Chardon ; Herboriste (Transformé) ; 1 ; 55
+Huile de Menthe ; Herboriste (Transformé) ; 20 ; 110
+Huile d'Edelweiss ; Herboriste (Transformé) ; 40 ; 190
+Huile de Mandragore ; Herboriste (Transformé) ; 60 ; 280
+Huile de Ginseng ; Herboriste (Transformé) ; 100 ; 520
+
+--- 6. RESSOURCES DE MÉTIERS : FORESTIER & MINEUR ---
+Bois de Frêne ; Forestier ; 1 ; 14
+Bois de Châtaignier ; Forestier ; 10 ; 20
+Bois de Noyer ; Forestier ; 20 ; 28
+Bois de Chêne ; Forestier ; 30 ; 38
+Bois de Bombu ; Forestier ; 40 ; 50
+Bois d'Oliviolet ; Forestier ; 50 ; 65
+Bois d'Érable ; Forestier ; 60 ; 80
+Bois d'If ; Forestier ; 70 ; 100
+Bois de Bambou ; Forestier ; 80 ; 120
+Bois de Merisier ; Forestier ; 90 ; 145
+Bois d'Ébène ; Forestier ; 100 ; 175
+Bois de Charme ; Forestier ; 110 ; 205
+Bois d'Orme ; Forestier ; 120 ; 240
+Bois Ancestral ; Forestier ; 130 ; 300
+Planche de Frêne ; Forestier (Transformé) ; 1 ; 50
+Planche de Chêne ; Forestier (Transformé) ; 30 ; 130
+Planche d'Érable ; Forestier (Transformé) ; 60 ; 260
+Planche d'Ébène ; Forestier (Transformé) ; 100 ; 550
+Minerai de Fer ; Mineur ; 1 ; 18
+Minerai de Cuivre ; Mineur ; 10 ; 25
+Minerai de Bronze ; Mineur ; 20 ; 35
+Minerai de Kobalte ; Mineur ; 30 ; 48
+Minerai de Manganèse ; Mineur ; 40 ; 62
+Minerai d'Étain ; Mineur ; 50 ; 80
+Minerai de Silicate ; Mineur ; 60 ; 100
+Minerai d'Argent ; Mineur ; 70 ; 125
+Minerai de Bauxite ; Mineur ; 80 ; 150
+Minerai d'Or ; Mineur ; 90 ; 185
+Minerai de Dolomite ; Mineur ; 100 ; 220
+Minerai de Ruthénium ; Mineur ; 110 ; 260
+Obsidienne ; Mineur ; 120 ; 310
+Améthyste ; Mineur (Gemme) ; 40 ; 450
+Émeraude ; Mineur (Gemme) ; 60 ; 750
+Rubis ; Mineur (Gemme) ; 80 ; 1200
+Saphir ; Mineur (Gemme) ; 100 ; 1800
+Diamant ; Mineur (Gemme) ; 120 ; 2500
+Alliage de Fer ; Mineur (Transformé) ; 1 ; 70
+Alliage de Bronze ; Mineur (Transformé) ; 20 ; 140
+Alliage d'Argent ; Mineur (Transformé) ; 70 ; 420
+Alliage d'Or ; Mineur (Transformé) ; 90 ; 650
+
+--- 7. RESSOURCES DE MÉTIERS : PÊCHEUR & TRAPPEUR ---
+Goujon ; Pêcheur ; 1 ; 15
+Truite ; Pêcheur ; 10 ; 22
+Crabe ; Pêcheur ; 20 ; 30
+Greuvette ; Pêcheur ; 30 ; 42
+Brochet ; Pêcheur ; 40 ; 55
+Carpe ; Pêcheur ; 50 ; 70
+Kralamoure ; Pêcheur ; 60 ; 90
+Raie ; Pêcheur ; 70 ; 115
+Requin ; Pêcheur ; 80 ; 140
+Espadon ; Pêcheur ; 90 ; 170
+Bar ; Pêcheur ; 100 ; 200
+Thon ; Pêcheur ; 110 ; 240
+Laine de Bouftou ; Trappeur ; 10 ; 25
+Cuir de Bouftou ; Trappeur ; 15 ; 35
+Corne de Bouftou ; Trappeur ; 15 ; 40
+Plume de Piou ; Trappeur ; 5 ; 18
+Plume de Tofu ; Trappeur ; 20 ; 30
+Gelée Bleue ; Trappeur ; 30 ; 60
+Gelée Menthe ; Trappeur ; 30 ; 65
+Gelée Fraise ; Trappeur ; 30 ; 70
+Gelée Citron ; Trappeur ; 30 ; 80
+Os de Chafer ; Trappeur ; 50 ; 95
+Pierre de Craqueleur ; Trappeur ; 65 ; 130
+Poil de Mulou ; Trappeur ; 95 ; 220
+Cuir de Dragon Cochon ; Trappeur ; 130 ; 450
+Écaille de Crocodaille ; Trappeur ; 140 ; 520
+Plume de Corbeau Noir ; Trappeur ; 115 ; 380
+Fil de Soie ; Trappeur (Transformé) ; 40 ; 180
+Cuir Tanné ; Trappeur (Transformé) ; 60 ; 290
+
+--- 8. CONSOMMABLES (PAIN, CUISINE & POTIONS) ---
+Pain d'Incarnam ; Boulanger ; 1 ; 120
+Pain au Blé Complet ; Boulanger ; 10 ; 200
+Pain aux Céréales ; Boulanger ; 25 ; 350
+Brioche Dorée ; Boulanger ; 40 ; 500
+Pain Consistant ; Boulanger ; 60 ; 750
+Fougasse ; Boulanger ; 80 ; 1050
+Pain des Champs ; Boulanger ; 100 ; 1400
+Macaron ; Boulanger ; 120 ; 1900
+Steak de Bouftou ; Cuisinier ; 15 ; 250
+Soupe de Kralamoure ; Cuisinier ; 60 ; 850
+Brochette de Tofu ; Cuisinier ; 30 ; 400
+Gratin de Citrouille ; Cuisinier ; 100 ; 1500
+Poisson Pané ; Cuisinier ; 45 ; 600
+Potion de Soin Mineure ; Alchimiste ; 10 ; 150
+Potion de Soin Majeure ; Alchimiste ; 80 ; 950
+Potion de Régénération ; Alchimiste ; 100 ; 1300
+Potion de Sagesse ; Alchimiste ; 50 ; 2500
+Potion de Prospection ; Alchimiste ; 50 ; 2800
+Potion de Maîtrise Élémentaire ; Alchimiste ; 100 ; 1800
+Potion de Maîtrise Mêlée ; Alchimiste ; 100 ; 1900
+Potion de Maîtrise Distance ; Alchimiste ; 100 ; 1900
+Potion de Coup Critique ; Alchimiste ; 120 ; 2200
+Potion de Rappel ; Alchimiste ; 1 ; 300
+Potion de Havre-Sac ; Alchimiste ; 1 ; 350
+Fiole de Wakfu ; Alchimiste ; 50 ; 800
+
+--- 9. FAMILIERS & MONTURES ---
+Chacha (Niv. 1) ; Familier ; 1 ; 500
+Chacha (Niv. 50) ; Familier ; 50 ; 120000
+Tofu (Niv. 1) ; Familier ; 1 ; 15000
+Tofu (Niv. 50) ; Familier ; 50 ; 450000
+Bouftou (Niv. 1) ; Familier ; 1 ; 20000
+Bouftou (Niv. 50) ; Familier ; 50 ; 500000
+Bowser (Niv. 1) ; Familier ; 1 ; 85000
+Bowser (Niv. 50) ; Familier ; 50 ; 950000
+Péki (Niv. 1) ; Familier ; 1 ; 110000
+Péki (Niv. 50) ; Familier ; 50 ; 1100000
+Croum (Niv. 1) ; Familier ; 1 ; 150000
+Croum (Niv. 50) ; Familier ; 50 ; 1350000
+Phénix (Niv. 1) ; Familier ; 1 ; 200000
+Phénix (Niv. 50) ; Familier ; 50 ; 1600000
+Bilby (Niv. 1) ; Familier ; 1 ; 90000
+Bilby (Niv. 50) ; Familier ; 50 ; 850000
+Chienchien (Niv. 1) ; Familier ; 1 ; 75000
+Chienchien (Niv. 50) ; Familier ; 50 ; 780000
+Ross (Niv. 1) ; Familier ; 1 ; 130000
+Ross (Niv. 50) ; Familier ; 50 ; 1200000
+Scarador (Niv. 1) ; Familier ; 1 ; 95000
+Scarador (Niv. 50) ; Familier ; 50 ; 900000
+Tiwabbit (Niv. 1) ; Familier ; 1 ; 120000
+Tiwabbit (Niv. 50) ; Familier ; 50 ; 1150000
+Gelutin (Niv. 1) ; Familier ; 1 ; 60000
+Gelutin (Niv. 50) ; Familier ; 50 ; 650000
+Chacha Angora (Niv. 50) ; Familier ; 50 ; 1450000
+Chacha des Glaces (Niv. 50) ; Familier ; 50 ; 1500000
+Drago-Destrier (Niv. 1) ; Monture ; 1 ; 180000
+Drago-Destrier (Niv. 50) ; Monture ; 50 ; 1400000
+Dragodinde (Niv. 1) ; Monture ; 1 ; 160000
+Dragodinde (Niv. 50) ; Monture ; 50 ; 1250000
+Kramkram (Niv. 50) ; Monture ; 50 ; 1800000
+
+--- 10. HAVRE-SAC, COSTUMES, CLEFS & DIVERS ---
+Havre-Gemme Jardin ; Havre-Sac ; 1 ; 120000
+Havre-Gemme Artisanat ; Havre-Sac ; 1 ; 180000
+Havre-Gemme Marchand ; Havre-Sac ; 1 ; 150000
+Havre-Gemme Décoration ; Havre-Sac ; 1 ; 90000
+Atelier d'Ébéniste ; Havre-Sac ; 1 ; 280000
+Atelier de Forgeron ; Havre-Sac ; 1 ; 300000
+Atelier d'Armurier ; Havre-Sac ; 1 ; 300000
+Atelier de Tailleur ; Havre-Sac ; 1 ; 300000
+Atelier de Maroquinier ; Havre-Sac ; 1 ; 300000
+Atelier de Bijoutier ; Havre-Sac ; 1 ; 310000
+Atelier de Boulanger ; Havre-Sac ; 1 ; 250000
+Atelier de Cuisinier ; Havre-Sac ; 1 ; 250000
+Atelier de Maître d'Armes ; Havre-Sac ; 1 ; 320000
+Coffre de Havre-Sac (Petit) ; Havre-Sac ; 1 ; 150000
+Coffre de Havre-Sac (Grand) ; Havre-Sac ; 1 ; 650000
+Vitrine de Havre-Sac ; Havre-Sac ; 1 ; 85000
+Mannequin d'équipement ; Havre-Sac ; 1 ; 110000
+Mimibiote ; Cosmétique ; 1 ; 450000
+Costume du Wa Wabbit ; Cosmétique ; 1 ; 380000
+Costume du Corbeau Noir ; Cosmétique ; 1 ; 520000
+Costume de Renne ; Cosmétique ; 1 ; 290000
+Costume du Bouftou ; Cosmétique ; 1 ; 140000
+Costume de la Garde Royale ; Cosmétique ; 1 ; 410000
+Parchemin de Caractéristiques ; Consommable Spécial ; 1 ; 850000
+Parchemin de Sort ; Consommable Spécial ; 1 ; 750000
+Clef du Donjon Bouftou ; Clef ; 15 ; 500
+Clef du Donjon Abraknyde ; Clef ; 45 ; 1500
+Clef du Donjon Mulou ; Clef ; 100 ; 4000
+Clef du Donjon Corbeau Noir ; Clef ; 115 ; 6500
+Clef du Donjon Dragon Cochon ; Clef ; 135 ; 9000
+Clef du Donjon Chêne Mou ; Clef ; 155 ; 14000
+Clef du Donjon Comte Harebourg ; Clef ; 175 ; 25000
+Clef du Donjon Nogord ; Clef ; 200 ; 45000
+Clef du Donjon Ereboria ; Clef ; 230 ; 70000
