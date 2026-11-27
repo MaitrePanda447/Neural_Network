@@ -2,6 +2,10 @@
 #include <vector>
 #include <cmath>
 #include <random>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <map>
 
 double sigmoid(double x)
 {
@@ -32,6 +36,17 @@ double totalCost(const std::vector<double>& outputs, const std::vector<double>& 
 double nodeCostDerivation(double output, double expected)
 {
 	return 2.0 * (output - expected);
+}
+
+std::string trim(const std::string& str)
+{
+	size_t first = str.find_first_not_of(" \t\r\n");
+	if (first == std::string::npos)
+	{
+		return "";
+	}
+	size_t last = str.find_last_not_of(" \t\r\n");
+	return str.substr(first, last - first + 1);
 }
 
 struct Layer
@@ -125,7 +140,8 @@ public:
 	}
 
 	std::vector<double> calculateOutputs(std::vector<double> inputs) {
-		for (auto& layer : layers) {
+		for (auto& layer : layers)
+		{
 			inputs = layer.calculateOutputs(inputs);
 		}
 		return inputs;
@@ -137,11 +153,13 @@ public:
 		Layer& outputLayer = layers.back();
 		outputLayer.calculateOutputLayerNodeValues(expected);
 
-		for (int i = static_cast<int>(layers.size()) - 2; i >= 0; --i) {
+		for (int i = static_cast<int>(layers.size()) - 2; i >= 0; --i)
+		{
 			layers[i].calculateHiddenLayerNodeValues(layers[i + 1]);
 		}
 
-		for (size_t i = 0; i < layers.size(); ++i) {
+		for (size_t i = 0; i < layers.size(); ++i)
+		{
 			const std::vector<double>& layerInputs = (i == 0) ? inputs : layers[i - 1].activations;
 			layers[i].applyGradients(layerInputs, learningRate);
 		}
@@ -149,36 +167,129 @@ public:
 };
 
 int main() {
-	NeuralNetwork nn({ 2, 4, 1 });
+	// --- ETAPE 1 : LECTURE ET NETTOYAGE DU FICHIER TXT ---
+	std::map<std::string, int> itemToIndex;
+	std::vector<double> prices;
 
-	std::vector<std::vector<double>> inputs = { { 0, 0 },{ 0, 1 },{ 1, 0 },{ 1, 1 } };
-	std::vector<std::vector<double>> expected = { { 0 },{ 1 },{ 1 },{ 0 } };
-	double learningRate = 0.5;
-
-	std::cout << "--- AVANT ENTRAINEMENT ---\n";
-	for (size_t i = 0; i < inputs.size(); ++i) {
-		auto out = nn.calculateOutputs(inputs[i]);
-		std::cout << inputs[i][0] << " XOR " << inputs[i][1]
-			<< " => " << out[0] << " (Attendu: " << expected[i][0] << ")\n";
+	std::ifstream file("../liste_items_et_prix.txt");
+	if (!file.is_open())
+	{
+		std::cerr << "Erreur : impossible d'ouvrir le fichier.\n";
+		return 1;
 	}
 
-	std::cout << "\n--- ENTRAINEMENT ---\n";
-	for (int epoch = 0; epoch <= 10000; ++epoch) {
-		double epochCost = 0.0;
-		for (size_t i = 0; i < inputs.size(); ++i) {
-			nn.training(inputs[i], expected[i], learningRate);
-			epochCost += totalCost(nn.calculateOutputs(inputs[i]), expected[i]);
+	std::string line;
+	while (std::getline(file, line))
+	{
+		if (line.find(';') == std::string::npos)
+		{
+			continue;
 		}
-		if (epoch % 100 == 0) {
+
+		std::stringstream ss(line);
+		std::string nom, categorie, niveauStr, prixStr;
+
+		if (std::getline(ss, nom, ';') &&
+			std::getline(ss, categorie, ';') &&
+			std::getline(ss, niveauStr, ';') &&
+			std::getline(ss, prixStr, ';'))
+		{
+			nom = trim(nom);
+			prixStr = trim(prixStr);
+
+			try {
+				double prix = std::stod(prixStr);
+				itemToIndex[nom] = static_cast<int>(prices.size());
+				prices.push_back(prix);
+			}
+			catch (...) {
+				continue;
+			}
+		}
+	}
+	file.close();
+
+	int N = static_cast<int>(prices.size());
+	std::cout << N << " items charges depuis le fichier.\n";
+
+	// --- ETAPE 2 : NORMALISATION DES PRIX (LOG10) ---
+	double prixMax = 0.0;
+	for (double p : prices)
+	{
+		if (p > prixMax)
+		{
+			prixMax = p;
+		}
+	}
+	double maxLog = std::log10(prixMax) + 0.5;
+
+	std::vector<std::vector<double>> expected(N, std::vector<double>(1));
+	for (int i = 0; i < N; ++i)
+	{
+		expected[i][0] = std::log10(prices[i]) / maxLog;
+	}
+
+	// --- ETAPE 3 : CREATION DES VECTEURS ONE-HOT ET DU RESEAU ---
+	std::vector<std::vector<double>> inputs(N, std::vector<double>(N, 0.0));
+	for (int i = 0; i < N; ++i)
+	{
+		inputs[i][i] = 1.0;
+	}
+
+	NeuralNetwork nn({ N, 16, 1 });
+	double learningRate = 0.4;
+	int nbEpoques = 3000;
+
+	// --- ETAPE 4 : ENTRAINEMENT ---
+	std::cout << "\n--- ENTRAINEMENT ---\n";
+	for (int epoch = 0; epoch <= nbEpoques; ++epoch)
+	{
+		for (int i = 0; i < N; ++i)
+		{
+			nn.training(inputs[i], expected[i], learningRate);
+		}
+
+		if (epoch % 500 == 0)
+		{
+			double epochCost = 0.0;
+			for (int i = 0; i < N; ++i)
+			{
+				epochCost += totalCost(nn.calculateOutputs(inputs[i]), expected[i]);
+			}
 			std::cout << "Epoch " << epoch << " | Cout total : " << epochCost << "\n";
 		}
 	}
 
-	std::cout << "\n--- APRES ENTRAINEMENT ---\n";
-	for (size_t i = 0; i < inputs.size(); ++i) {
-		auto out = nn.calculateOutputs(inputs[i]);
-		std::cout << inputs[i][0] << " XOR " << inputs[i][1]
-			<< " => " << out[0] << " (Attendu: " << expected[i][0] << ")\n";
+	// --- ETAPE 5 : INTERROGATION UTILISATEUR ---
+	std::cout << "\n--- ESTIMATION DES PRIX ---\n";
+	std::string saisie;
+
+	while (true)
+	{
+		std::cout << "\nEntrez le nom exact d'un item (ou 'quit' pour quitter) : ";
+		std::getline(std::cin, saisie);
+		saisie = trim(saisie);
+
+		if (saisie == "quit")
+		{
+			break;
+		}
+
+		if (itemToIndex.count(saisie) > 0)
+		{
+			int idx = itemToIndex[saisie];
+			auto out = nn.calculateOutputs(inputs[idx]);
+
+			long long prixPredit = static_cast<long long>(std::round(std::pow(10.0, out[0] * maxLog)));
+			long long prixReel = static_cast<long long>(prices[idx]);
+
+			std::cout << "-> Prix predit par l'IA : " << prixPredit << " Kamas\n";
+			std::cout << "-> Prix reel du fichier : " << prixReel << " Kamas\n";
+		}
+		else
+		{
+			std::cout << "Objet introuvable dans la base.\n";
+		}
 	}
 
 	return 0;
